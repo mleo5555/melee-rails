@@ -1,6 +1,9 @@
 <!DOCTYPE html>
 <html>
 <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Meleerails</title>
   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
@@ -8,8 +11,29 @@
   <%= favicon_link_tag 'favicon.ico' %>
 </head>
 <body>
+<div class="omega-container">
 
-<%= yield %>
+  <div class="panel panel-default">
+    <div class="panel-body">
+      <a class="home" href="/">Melee Hub</a>
+      <a class="login" href="#">Login</a>
+    </div>
+  </div>
+
+    <nav class="navbar navbar-default">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <a class="navbar-brand" href="#">Characters</a>
+          <a class="navbar-brand" href="#">Competition</a>
+          <a class="navbar-brand" href="#">Top Players</a>
+          <a class="navbar-brand" href="#">Resources</a> <!-- dropdown? -->
+        </div>
+      </div>
+    </nav>
+
+</div>
+
+  <%= yield %>
 
 </body>
 </html>

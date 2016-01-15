@@ -1,0 +1,60 @@
+@import "bootstrap";
+
+.panel-default {
+    background-color: #182558;
+    height: 70px;
+    border-radius: 0;
+}
+.panel-body {
+  max-width: 1180px;
+  margin: auto;
+  height: 70px;
+  // background-color: blue;
+}
+
+.home {
+  font-size: 30px;
+  color: white;
+}
+
+.login {
+  font-size: 20px;
+  color: white;
+  float:right;
+  padding-top: 10px;
+}
+
+div a:hover {
+    color: #ECECEC;
+    text-decoration: none;
+}
+
+.navbar-default {
+  border-radius: 0;
+}
+
+.panel {
+  margin-bottom: 0px;
+  border: none;
+}
+
+.navbar-header {
+    float: left;
+    padding: 15px;
+    text-align: center;
+    width: 100%;
+}
+
+.navbar-header a.navbar-brand {
+  color:#333333;
+}
+
+.navbar-header a.navbar-brand:hover {
+  color:#5A6691;
+}
+
+.navbar-brand {
+  float:none;
+  padding-left: 25px;
+  padding-right: 25px;
+}
