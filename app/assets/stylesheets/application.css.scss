@@ -1,12 +1,29 @@
 @import "bootstrap";
 
 .panel-default {
-    background-color: #6C7A89;
+    background-color: #182558;
     height: 70px;
     border-radius: 0;
 }
 .panel-body {
   max-width: 1180px;
+  margin: auto;
+  height: 70px;
+  // background-color: blue;
+}
+
+.home {
+  font-size: 34px;
+  color: white;
+}
+
+div a:hover {
+    color: #ECECEC;
+    text-decoration: none;
+}
+
+.navbar-default {
+  border-radius: 0;
 }
 
 .panel {
@@ -20,6 +37,7 @@
     text-align: center;
     width: 100%;
 }
+
 .navbar-brand {
   float:none;
   padding-left: 25px;
