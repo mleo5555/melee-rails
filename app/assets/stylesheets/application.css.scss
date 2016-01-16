@@ -9,7 +9,6 @@
   max-width: 1180px;
   margin: auto;
   height: 70px;
-  // background-color: blue;
 }
 
 .home {
@@ -31,6 +30,8 @@ div a:hover {
 
 .navbar-default {
   border-radius: 0;
+  margin-bottom: 0px;
+  border-bottom: 1px solid #808080;
 }
 
 .panel {
@@ -57,4 +58,49 @@ div a:hover {
   float:none;
   padding-left: 25px;
   padding-right: 25px;
+}
+
+// home page content css below
+
+.home-sides-container {
+  background-color: #f8f8f8;
+  border-top: 1px solid #e6e6e1;
+}
+
+.home-container {
+  position: relative;
+  max-width: 1180px;
+  margin: auto;
+  background-color: white;
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-top: 1px;
+  padding-bottom: 15px;
+  border-right: 2px solid #e6e6e1;
+  border-left: 2px solid #e6e6e1;
+  border-bottom: 2px solid #e6e6e1;
+}
+
+.about {
+  max-width: 500px;
+  display: inline-block;
+}
+
+.smash-logo {
+  margin-top: 20px;
+  margin-left: 65px;
+  display: inline-block;
+  max-width: 500px;
+  position: absolute;
+  top: 10px;
+}
+
+.row {
+  margin-top: 25px;
+}
+
+.thumbnail {
+  width: 249px;
+  height: 163px;
+  overflow: auto;
 }
