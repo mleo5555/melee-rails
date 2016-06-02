@@ -12,5 +12,13 @@
 //
 //= require jquery
 //= require jquery_ujs
-//= require turbolinks
 //= require_tree .
+
+$(document).ready(function () {
+  $("#fox").click(function () {
+	  $('.character-container').append("<div class='char-info'>Fox information here</div>");
+  });
+  $("#falco").click(function () {
+	  $('.character-container').append("<div class='char-info'>Falco information here</div>");
+  });
+});
