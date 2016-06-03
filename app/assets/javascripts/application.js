@@ -15,10 +15,26 @@
 //= require_tree .
 
 $(document).ready(function () {
-  $("#fox").click(function () {
-	  $('.character-container').append("<div class='char-info'>Fox information here</div>");
+  $("#fox-btn").click(function () {
+	  $('#fox-info').show();
+    $("#fox-btn").hide();
+    $("#fox-danger-btn").show();
   });
-  $("#falco").click(function () {
-	  $('.character-container').append("<div class='char-info'>Falco information here</div>");
+  $("#fox-danger-btn").click(function () {
+	  $('#fox-info').hide();
+    $("#fox-danger-btn").hide();
+    $("#fox-btn").show();
   });
+
+  $("#falco-btn").click(function () {
+	  $('#falco-info').show();
+    $("#falco-btn").hide();
+    $("#falco-danger-btn").show();
+  });
+  $("#falco-danger-btn").click(function () {
+    $('#falco-info').hide();
+    $("#falco-danger-btn").hide();
+    $("#falco-btn").show();
+  });
+
 });
