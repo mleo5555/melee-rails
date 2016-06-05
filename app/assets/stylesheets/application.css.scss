@@ -108,24 +108,27 @@ div a:hover {
 // character css below
 
 .character-container {
-  text-align: center;
-  background-color: cyan;
-  border: 1px solid black;
+  background-color: #6C7A89;
+  border: 1px solid gray;
   margin-top: 2px;
   margin-bottom: 3px;
 }
 
+.char-img {
+  display: block;
+  margin: 0 auto;
+}
+
+.list-group-item {
+  margin-top: 3px;
+  margin-bottom: 3px;
+}
+
 #fox-info {
-  width: 500px;
-  length: 900px;
-  background-color: red;
   display: none;
 }
 
 #falco-info {
-  width: 500px;
-  length: 900px;
-  background-color: red;
   display: none;
 }
 
