@@ -15,26 +15,39 @@
 //= require_tree .
 
 $(document).ready(function () {
-  $("#fox-btn").click(function () {
-	  $('#fox-info').show();
-    $("#fox-btn").hide();
-    $("#fox-danger-btn").show();
-  });
-  $("#fox-danger-btn").click(function () {
-	  $('#fox-info').hide();
-    $("#fox-danger-btn").hide();
-    $("#fox-btn").show();
-  });
+  // $("#fox-btn").click(function () {
+	//   $('#fox-info').show();
+  //   $("#fox-btn").hide();
+  //   $("#fox-danger-btn").show();
+  // });
+  // $("#fox-danger-btn").click(function () {
+	//   $('#fox-info').hide();
+  //   $("#fox-danger-btn").hide();
+  //   $("#fox-btn").show();
+  // });
+  //
+  // $("#falco-btn").click(function () {
+	//   $('#falco-info').show();
+  //   $("#falco-btn").hide();
+  //   $("#falco-danger-btn").show();
+  // });
+  // $("#falco-danger-btn").click(function () {
+  //   $('#falco-info').hide();
+  //   $("#falco-danger-btn").hide();
+  //   $("#falco-btn").show();
+  // });
 
-  $("#falco-btn").click(function () {
-	  $('#falco-info').show();
-    $("#falco-btn").hide();
-    $("#falco-danger-btn").show();
+  $("#fox-btn").click(function () {
+    $(".char-data").children().hide();
+    $(".floated_img").css("background-color", "#f8f8f8");
+    $('#fox-info').show();
+    $("#fox-btn").css("background-color", "yellow");
   });
-  $("#falco-danger-btn").click(function () {
-    $('#falco-info').hide();
-    $("#falco-danger-btn").hide();
-    $("#falco-btn").show();
+  $("#falco-btn").click(function () {
+    $(".char-data").children().hide();
+    $(".floated_img").css("background-color", "#f8f8f8");
+    $('#falco-info').show();
+    $("#falco-btn").css("background-color", "yellow");
   });
 
 });
