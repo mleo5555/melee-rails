@@ -139,3 +139,18 @@ div a:hover {
 #falco-danger-btn {
   display: none;
 }
+
+.floated_img {
+  display: inline-block;
+  width: 100px;
+  height:100px;
+  border: 2px solid #e6e6e1;
+  border-radius: 10px;
+  background-color: #f8f8f8;
+  margin-top: 1px;
+  margin-bottom: 1px;
+}
+
+.image-border-radius {
+  border-radius: 10px;
+}
