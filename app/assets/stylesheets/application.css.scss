@@ -87,12 +87,14 @@ div a:hover {
 }
 
 .smash-logo {
-  margin-top: 20px;
-  margin-left: 65px;
-  display: inline-block;
-  max-width: 500px;
-  position: absolute;
-  top: 10px;
+  float: left;
+  padding-bottom: 10px;
+}
+
+#smash-img {
+  max-width: 100%;
+  height: auto;
+  width: auto\9;
 }
 
 .row {
@@ -132,11 +134,11 @@ div a:hover {
   display: none;
 }
 
-#fox-danger-btn {
+#marth-info {
   display: none;
 }
 
-#falco-danger-btn {
+#sheik-info {
   display: none;
 }
 
@@ -149,8 +151,19 @@ div a:hover {
   background-color: #f8f8f8;
   margin-top: 1px;
   margin-bottom: 1px;
+  cursor: pointer;
+  cursor: hand;
+}
+
+.floated_img:hover {
+    background-color: #b3d9ff !important;
+    border: 2px solid #2c43a0 !important;
 }
 
 .image-border-radius {
+  border-radius: 10px;
+}
+
+.list-group-item {
   border-radius: 10px;
 }

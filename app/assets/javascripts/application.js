@@ -15,39 +15,38 @@
 //= require_tree .
 
 $(document).ready(function () {
-  // $("#fox-btn").click(function () {
-	//   $('#fox-info').show();
-  //   $("#fox-btn").hide();
-  //   $("#fox-danger-btn").show();
-  // });
-  // $("#fox-danger-btn").click(function () {
-	//   $('#fox-info').hide();
-  //   $("#fox-danger-btn").hide();
-  //   $("#fox-btn").show();
-  // });
-  //
-  // $("#falco-btn").click(function () {
-	//   $('#falco-info').show();
-  //   $("#falco-btn").hide();
-  //   $("#falco-danger-btn").show();
-  // });
-  // $("#falco-danger-btn").click(function () {
-  //   $('#falco-info').hide();
-  //   $("#falco-danger-btn").hide();
-  //   $("#falco-btn").show();
-  // });
 
   $("#fox-btn").click(function () {
     $(".char-data").children().hide();
     $(".floated_img").css("background-color", "#f8f8f8");
+    $(".floated_img").css("border", "2px solid #e6e6e1");
     $('#fox-info').show();
-    $("#fox-btn").css("background-color", "yellow");
+    $("#fox-btn").css("background-color", "#b3d9ff");
+    $("#fox-btn").css("border", "2px solid #2c43a0");
   });
   $("#falco-btn").click(function () {
     $(".char-data").children().hide();
     $(".floated_img").css("background-color", "#f8f8f8");
+    $(".floated_img").css("border", "2px solid #e6e6e1");
     $('#falco-info').show();
-    $("#falco-btn").css("background-color", "yellow");
+    $("#falco-btn").css("background-color", "#b3d9ff");
+    $("#falco-btn").css("border", "2px solid #2c43a0");
+  });
+  $("#marth-btn").click(function () {
+    $(".char-data").children().hide();
+    $(".floated_img").css("background-color", "#f8f8f8");
+    $(".floated_img").css("border", "2px solid #e6e6e1");
+    $('#marth-info').show();
+    $("#marth-btn").css("background-color", "#b3d9ff");
+    $("#marth-btn").css("border", "2px solid #2c43a0");
+  });
+  $("#sheik-btn").click(function () {
+    $(".char-data").children().hide();
+    $(".floated_img").css("background-color", "#f8f8f8");
+    $(".floated_img").css("border", "2px solid #e6e6e1");
+    $('#sheik-info').show();
+    $("#sheik-btn").css("background-color", "#b3d9ff");
+    $("#sheik-btn").css("border", "2px solid #2c43a0");
   });
 
 });
