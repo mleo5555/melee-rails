@@ -87,11 +87,15 @@ div a:hover {
 }
 
 .smash-logo {
-  float: left;
+  float: right;
   padding-bottom: 10px;
+  margin-top: 20px;
+  display: inline-block;
+  // background-color: red;
 }
 
 #smash-img {
+  width: 550px;
   max-width: 100%;
   height: auto;
   width: auto\9;
