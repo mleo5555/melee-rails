@@ -4,4 +4,7 @@ class IndexController < ApplicationController
 
   def characters
   end
+
+  def competition
+  end
 end
